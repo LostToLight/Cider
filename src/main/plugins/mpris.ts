@@ -102,7 +102,8 @@ export default class mpris {
             'xesam:title': `${attributes.name}`,
             'xesam:album': `${attributes.albumName}`,
             'xesam:artist': [`${attributes.artistName}`],
-            'xesam:genre': attributes.genreNames
+            'xesam:genre': attributes.genreNames,
+	    'xesam:url' : attributes.url.appleMusic
         }
 
         if (mpris.player.metadata["mpris:trackid"] === MetaData["mpris:trackid"]) {

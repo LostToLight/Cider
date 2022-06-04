@@ -32,6 +32,7 @@ const wsapi = {
         attributes.artwork.url = attributes.artwork.url ? attributes.artwork.url : '';
         attributes.playParams = attributes.playParams ? attributes.playParams : {id: 'no-id-found'};
         attributes.playParams.id = attributes.playParams.id ? attributes.playParams.id : 'no-id-found';
+	attributes.url = attributes.url ? attributes.url : 'no-id-found';
         attributes.albumName = attributes.albumName ? attributes.albumName : '';
         attributes.artistName = attributes.artistName ? attributes.artistName : '';
         attributes.genreNames = attributes.genreNames ? attributes.genreNames : [];
